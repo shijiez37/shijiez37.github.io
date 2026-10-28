@@ -150,6 +150,38 @@ span.highlight {
 }
 /* ---- additions for this site ---- */
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 0;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.topnav a {
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 15px;
+}
+
+#research,
+#experience,
+#teaching {
+  scroll-margin-top: 48px;
+}
+
 .thumb {
   position: relative;
   width: 100%;
@@ -180,6 +212,13 @@ tr:hover .thumb img.hover {
   padding: 24px 16px 6px 16px;
 }
 
+.cv-sub {
+  padding: 14px 16px 2px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+}
+
 .cv-main,
 .cv-date {
   padding: 6px 16px;
@@ -198,6 +237,10 @@ tr:hover .thumb img.hover {
 
 /* stack rows on narrow screens */
 @media (max-width: 560px) {
+  .topnav a {
+    margin: 0 6px;
+    font-size: 14px;
+  }
   .header-table tr {
     display: flex;
     flex-direction: column-reverse;
