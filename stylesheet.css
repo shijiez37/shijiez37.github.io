@@ -235,6 +235,11 @@ tr:hover .thumb img.hover {
   color: #555;
 }
 
+/* indent entries under the Education / Work Experience sub-headings */
+#experience .cv-main {
+  padding-left: 36px;
+}
+
 /* stack rows on narrow screens */
 @media (max-width: 560px) {
   .topnav a {
