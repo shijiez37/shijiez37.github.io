@@ -258,7 +258,7 @@ tr:hover .thumb img.hover {
   }
   .header-table img {
     display: block;
-    max-width: 200px !important;
+    max-width: 160px !important;
     margin: 0 auto;
   }
   .pub-table td:first-child {
